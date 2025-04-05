@@ -1,0 +1,144 @@
+﻿/* wwwroot/css/site.css */
+body {
+    background-color: #FAF9F9;
+    color: #555B6E;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.btn-primary {
+    background-color: #89B0AE;
+    border-color: #89B0AE;
+}
+
+    .btn-primary:hover {
+        background-color: #555B6E;
+        border-color: #555B6E;
+    }
+
+.btn-secondary {
+    background-color: #FFD6BA;
+    border-color: #FFD6BA;
+    color: #555B6E;
+}
+
+    .btn-secondary:hover {
+        background-color: #FFA76A;
+        border-color: #FFA76A;
+    }
+
+.card {
+    background-color: #BEE3DB;
+    border: none;
+}
+
+.custom-navbar {
+    background-color: #555B6E;
+}
+
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand {
+    color: #FAF9F9;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #FFD6BA;
+}
+
+.navbar-toggler {
+    border-color: #FAF9F9;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250,249,249, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar .nav-link.active {
+    color: #FFD6BA !important;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.custom-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card-header {
+    background-color: #555B6E;
+    color: #FAF9F9;
+}
+
+.custom-input {
+    border-radius: 5px;
+    border: 1px solid #B9B9B9;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.custom-input:focus {
+    border-color: #89B0AE;
+    box-shadow: 0 0 5px rgba(137, 176, 174, 0.5);
+}
+
+.custom-btn {
+    background-color: #FFD6BA;
+    border-color: #FFD6BA;
+    color: #555B6E;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.custom-btn:hover {
+    background-color: #89B0AE;
+    color: #FAF9F9;
+    border-color: #89B0AE;
+}
+
+.custom-btn:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(137, 176, 174, 0.7);
+}
+
+.modal-body {
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-arrow {
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 0;
+    padding: 12px;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prev-btn {
+    left: 0;
+}
+
+.next-btn {
+    right: 0;
+}
+
+.nav-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-body img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

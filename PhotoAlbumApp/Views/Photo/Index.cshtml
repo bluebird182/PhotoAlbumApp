@@ -1,0 +1,146 @@
+﻿@model List<PhotoAlbumApp.Models.Photo>
+@{
+    var currentSort = Context.Request.Query["sort"].ToString();
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4 text-center">Fényképek</h2>
+
+    <div class="d-flex justify-content-center mb-3">
+        <a class="btn me-2 @(currentSort == "name" ? "btn-secondary active" : "btn-outline-secondary")" href="?sort=name">
+            Rendezés név szerint
+        </a>
+        <a class="btn @(currentSort == "date" ? "btn-secondary active" : "btn-outline-secondary")" href="?sort=date">
+            Rendezés dátum szerint
+        </a>
+    </div>
+
+    <div class="row">
+        @foreach (var photo in Model.Select((value, index) => new { value, index }))
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">@photo.value.Name</h5>
+                        <p class="card-text text-muted mb-0">Feltöltés ideje:</p>
+                        <p class="card-text text-muted">@photo.value.UploadDate.ToString("yyyy-MM-dd HH:mm")</p>
+
+                        <a href="#" class="btn btn-sm btn-primary"
+                           data-bs-toggle="modal" data-bs-target="#photoModal"
+                           data-bs-photo="@Url.Content(photo.value.FilePath)"
+                           data-bs-name="@photo.value.Name"
+                           data-bs-id="@photo.index">
+                            Megtekintés
+                        </a>
+                        <button class="btn btn-sm btn-danger delete-btn" data-id="@photo.value.Id">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="modal fade" id="deleteConfirmModal" tabindex="-1" aria-labelledby="deleteConfirmModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteConfirmModalLabel">Biztosan törölni szeretné?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Mégsem</button>
+                    <button type="button" class="btn btn-danger" id="confirmDeleteBtn">Törlés</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="photoModal" tabindex="-1" aria-labelledby="photoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="photoName"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body position-relative">
+                    <button id="prevBtn" class="nav-arrow prev-btn position-absolute top-50 start-0 translate-middle-y">
+                        &lt;
+                    </button>
+                    <img id="modalImage" src="" class="img-fluid" alt="Kép" style="width: 100%; height: auto;" />
+                    <button id="nextBtn" class="nav-arrow next-btn position-absolute top-50 end-0 translate-middle-y">
+                        &gt;
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var photoModal = document.getElementById('photoModal');
+            var photos = @Html.Raw(Json.Serialize(Model));
+            var currentIndex = 0;
+            var modalImage = photoModal.querySelector('#modalImage');
+            var photoNameElement = photoModal.querySelector('#photoName');
+            var prevBtn = photoModal.querySelector('#prevBtn');
+            var nextBtn = photoModal.querySelector('#nextBtn');
+
+            let deletePhotoId = null;
+            const deleteModal = new bootstrap.Modal(document.getElementById('deleteConfirmModal'));
+            const confirmDeleteBtn = document.getElementById('confirmDeleteBtn');
+
+            document.querySelectorAll('.delete-btn').forEach(button => {
+                button.addEventListener('click', function () {
+                    deletePhotoId = this.getAttribute('data-id');
+                    deleteModal.show();
+                });
+            });
+
+            confirmDeleteBtn.addEventListener('click', function () {
+                fetch(`/Photo/Delete/${deletePhotoId}`, {
+                    method: 'POST'
+                }).then(response => {
+                    if (response.redirected) {
+                        window.location.href = response.url;
+                    } else {
+                        location.reload();
+                    }
+                });
+            });
+
+            photoModal.addEventListener('show.bs.modal', function (event) {
+                var imgElement = event.relatedTarget;
+                var imageUrl = imgElement.getAttribute('data-bs-photo');
+                var photoName = imgElement.getAttribute('data-bs-name');
+                currentIndex = parseInt(imgElement.getAttribute('data-bs-id'));
+
+                modalImage.src = imageUrl;
+                photoNameElement.textContent = photoName;
+            });
+
+            prevBtn.addEventListener('click', function () {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                    updateModal();
+                }
+            });
+
+            nextBtn.addEventListener('click', function () {
+                if (currentIndex < photos.length - 1) {
+                    currentIndex++;
+                    updateModal();
+                }
+            });
+
+            function updateModal() {
+                var currentPhoto = photos[currentIndex];
+                modalImage.src = currentPhoto.filePath;
+                photoNameElement.textContent = currentPhoto.name;
+            }
+        });
+    </script>
+}
