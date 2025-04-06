@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eross\\Documents\\GitHub\\Felho\\PhotoAlbumApp\\PhotoAlbumApp.csproj": {}
+    "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\PhotoAlbumApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eross\\Documents\\GitHub\\Felho\\PhotoAlbumApp\\PhotoAlbumApp.csproj": {
+    "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\PhotoAlbumApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eross\\Documents\\GitHub\\Felho\\PhotoAlbumApp\\PhotoAlbumApp.csproj",
+        "projectUniqueName": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\PhotoAlbumApp.csproj",
         "projectName": "PhotoAlbumApp",
-        "projectPath": "C:\\Users\\eross\\Documents\\GitHub\\Felho\\PhotoAlbumApp\\PhotoAlbumApp.csproj",
-        "packagesPath": "C:\\Users\\eross\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eross\\Documents\\GitHub\\Felho\\PhotoAlbumApp\\obj\\",
+        "projectPath": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\PhotoAlbumApp.csproj",
+        "packagesPath": "C:\\Users\\gomar\\.nuget\\packages\\",
+        "outputPath": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\eross\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gomar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
