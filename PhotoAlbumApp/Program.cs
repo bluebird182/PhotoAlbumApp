@@ -17,7 +17,7 @@ var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
 {
-    var db = scope.ServiceProvider.GetRequiredService<YourDbContext>();
+    var db = scope.ServiceProvider.GetRequiredService<PhotoDbContext>();
     db.Database.Migrate(); // Apply migrations automatically
 }
 
