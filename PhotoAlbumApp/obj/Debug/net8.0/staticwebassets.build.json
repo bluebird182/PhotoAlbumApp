@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T13GGN3MUcp7IaF+AWuiCGiue0jMZbgzOGdoU8sPZGg=",
+  "Hash": "iVeBDRi+SQC/gkdwcJV8EfjZHf1IGEVbaX6/ZC2nHwo=",
   "Source": "PhotoAlbumApp",
   "BasePath": "_content/PhotoAlbumApp",
   "Mode": "Default",
@@ -1193,6 +1193,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\2d88c83c-5c5d-4c44-b99a-67ea7a040017.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\eross\\Documents\\GitHub\\Felho\\PhotoAlbumApp\\wwwroot\\uploads\\33e67d3a-f507-42e1-aafe-a24b9650afec.webp",
+      "SourceId": "PhotoAlbumApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eross\\Documents\\GitHub\\Felho\\PhotoAlbumApp\\wwwroot\\",
+      "BasePath": "_content/PhotoAlbumApp",
+      "RelativePath": "uploads/33e67d3a-f507-42e1-aafe-a24b9650afec.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\33e67d3a-f507-42e1-aafe-a24b9650afec.webp"
+    },
+    {
+      "Identity": "C:\\Users\\eross\\Documents\\GitHub\\Felho\\PhotoAlbumApp\\wwwroot\\uploads\\5dcf3776-100a-44b8-bd0c-4659fa62ae4b.png",
+      "SourceId": "PhotoAlbumApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eross\\Documents\\GitHub\\Felho\\PhotoAlbumApp\\wwwroot\\",
+      "BasePath": "_content/PhotoAlbumApp",
+      "RelativePath": "uploads/5dcf3776-100a-44b8-bd0c-4659fa62ae4b.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\5dcf3776-100a-44b8-bd0c-4659fa62ae4b.png"
     }
   ]
 }

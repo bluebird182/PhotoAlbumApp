@@ -249,6 +249,14 @@
       "PackagePath": "staticwebassets\\uploads\\2d88c83c-5c5d-4c44-b99a-67ea7a040017.jfif"
     },
     {
+      "Id": "C:\\Users\\eross\\Documents\\GitHub\\Felho\\PhotoAlbumApp\\wwwroot\\uploads\\33e67d3a-f507-42e1-aafe-a24b9650afec.webp",
+      "PackagePath": "staticwebassets\\uploads\\33e67d3a-f507-42e1-aafe-a24b9650afec.webp"
+    },
+    {
+      "Id": "C:\\Users\\eross\\Documents\\GitHub\\Felho\\PhotoAlbumApp\\wwwroot\\uploads\\5dcf3776-100a-44b8-bd0c-4659fa62ae4b.png",
+      "PackagePath": "staticwebassets\\uploads\\5dcf3776-100a-44b8-bd0c-4659fa62ae4b.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PhotoAlbumApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
