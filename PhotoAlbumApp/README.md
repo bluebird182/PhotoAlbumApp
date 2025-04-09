@@ -50,7 +50,7 @@ Az alkalmazásunkat háromrétegű architektúra felhasználásával fejlesztett
 - Builder image kiválasztása: `.NET 8`
 - `.s2i/environment` fájl létrehozása a következő tartalommal: DOTNET_STARTUP_PROJECT=PhotoAlbumApp/PhotoAlbumApp.csproj
 
-## 3. Build és futtatási hibák
+## 2. Build és futtatási hibák
 
 ### Hiba
 - A build sikeres volt, de a `/photo/index` végpont 500-as hibát adott vissza

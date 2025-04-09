@@ -1,7 +1,44 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\msc\\felho_photo\\photoalbumapp\\photoalbumapp\\views\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:views\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\msc\\felho_photo\\photoalbumapp\\photoalbumapp\\views\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:views\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\msc\\felho_photo\\photoalbumapp\\photoalbumapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\msc\\felho_photo\\photoalbumapp\\photoalbumapp\\views\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:views\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\msc\\felho_photo\\photoalbumapp\\photoalbumapp\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\msc\\felho_photo\\photoalbumapp\\photoalbumapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\msc\\felho_photo\\photoalbumapp\\photoalbumapp\\data\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:data\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\msc\\felho_photo\\photoalbumapp\\photoalbumapp\\logic\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:logic\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\msc\\felho_photo\\photoalbumapp\\photoalbumapp\\logic\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:logic\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +67,123 @@
             {
               "$type": "Bookmark",
               "Name": "ST:14722747:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Views\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Logout.cshtml",
+              "ToolTip": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Views\\Logout.cshtml",
+              "RelativeToolTip": "Views\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T06:57:07.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Views\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Views\\Login.cshtml.cs",
+              "ToolTip": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Views\\Login.cshtml.cs",
+              "RelativeToolTip": "Views\\Login.cshtml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAB8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T06:54:17.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Views\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login.cshtml",
+              "ToolTip": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Views\\Login.cshtml",
+              "RelativeToolTip": "Views\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T06:54:06.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T06:53:13.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Data\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Data\\UserRepository.cs",
+              "ToolTip": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Data\\UserRepository.cs",
+              "RelativeToolTip": "Data\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T06:51:44.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Data\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Data\\IUserRepository.cs",
+              "ToolTip": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Data\\IUserRepository.cs",
+              "RelativeToolTip": "Data\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T06:51:29.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Logic\\AuthService.cs",
+              "RelativeDocumentMoniker": "Logic\\AuthService.cs",
+              "ToolTip": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Logic\\AuthService.cs",
+              "RelativeToolTip": "Logic\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T06:51:03.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Logic\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Logic\\IAuthService.cs",
+              "ToolTip": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Logic\\IAuthService.cs",
+              "RelativeToolTip": "Logic\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T06:50:55.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T19:14:06.229Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;  
 using Microsoft.EntityFrameworkCore;                       
 
@@ -12,6 +13,16 @@ builder.Services
 //    .AddEntityFrameworkStores<PhotoDbContext>();
 
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Account/Login";
+        options.LogoutPath = "/Account/Logout";
+    });
+
+builder.Services.AddAuthorization();
+
 
 var app = builder.Build();
 
