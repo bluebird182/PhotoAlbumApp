@@ -1,7 +1,9 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PhotoAlbumApp.Models;
 
+[Authorize]
 public class PhotoController : Controller
 {
     private readonly PhotoDbContext _context;
@@ -13,6 +15,7 @@ public class PhotoController : Controller
         _env = env;
     }
 
+    [Authorize]
     public async Task<IActionResult> Index(string sort = "name")
     {
         var photos = sort == "date"
@@ -22,6 +25,7 @@ public class PhotoController : Controller
         return View(photos);
     }
 
+    [Authorize]
     public async Task<IActionResult> Details(int id)
     {
         var photo = await _context.Photos.FindAsync(id);

@@ -451,6 +451,18 @@
           }
         }
       },
+      "Microsoft.EntityFrameworkCore.Tools/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/_._": {}
+        },
+        "runtime": {
+          "lib/net8.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -1741,6 +1753,31 @@
         "microsoft.entityframeworkcore.sqlite.core.nuspec"
       ]
     },
+    "Microsoft.EntityFrameworkCore.Tools/8.0.0": {
+      "sha512": "zRdaXiiB1gEA0b+AJTd2+drh78gkEA4HyZ1vqNZrKq4xwW8WwavSiQsoeb1UsIMZkocLMBbhQYWClkZzuTKEgQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.tools/8.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net8.0/_._",
+        "microsoft.entityframeworkcore.tools.8.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.nuspec",
+        "tools/EntityFrameworkCore.PS2.psd1",
+        "tools/EntityFrameworkCore.PS2.psm1",
+        "tools/EntityFrameworkCore.psd1",
+        "tools/EntityFrameworkCore.psm1",
+        "tools/about_EntityFrameworkCore.help.txt",
+        "tools/init.ps1",
+        "tools/net461/any/ef.exe",
+        "tools/net461/win-arm64/ef.exe",
+        "tools/net461/win-x86/ef.exe",
+        "tools/netcoreapp2.0/any/ef.dll",
+        "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
+      ]
+    },
     "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
       "sha512": "3KuSxeHoNYdxVYfg2IRZCThcrlJ1XJqIXkAWikCsbm5C/bCjv7G0WoKDyuR98Q+T607QT2Zl5GsbGRkENcV2yQ==",
       "type": "package",
@@ -2696,8 +2733,8 @@
     "net8.0": [
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.0",
-      "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.0"
+      "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.0",
+      "Microsoft.EntityFrameworkCore.Tools >= 8.0.0"
     ]
   },
   "packageFolders": {
@@ -2707,11 +2744,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\PhotoAlbumApp.csproj",
+      "projectUniqueName": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\PhotoAlbumApp.csproj",
       "projectName": "PhotoAlbumApp",
-      "projectPath": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\PhotoAlbumApp.csproj",
+      "projectPath": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\PhotoAlbumApp.csproj",
       "packagesPath": "C:\\Users\\gomar\\.nuget\\packages\\",
-      "outputPath": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\obj\\",
+      "outputPath": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2758,13 +2795,13 @@
             "target": "Package",
             "version": "[8.0.0, )"
           },
-          "Microsoft.EntityFrameworkCore.Design": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
+          "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[8.0.0, )"
           },
-          "Microsoft.EntityFrameworkCore.Sqlite": {
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.0, )"
           }

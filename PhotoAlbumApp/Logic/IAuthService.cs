@@ -1,4 +1,6 @@
-﻿namespace PhotoAlbumApp.Logic
+﻿using PhotoAlbumApp.Models;
+
+namespace PhotoAlbumApp.Logic
 {
     public interface IAuthService
     {

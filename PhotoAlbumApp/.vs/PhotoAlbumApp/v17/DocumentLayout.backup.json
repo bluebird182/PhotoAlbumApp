@@ -1,34 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\",
+  "WorkspaceRootPath": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\msc\\felho_photo\\photoalbumapp\\photoalbumapp\\views\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:views\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\photoalbumapp\\photoalbumapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\msc\\felho_photo\\photoalbumapp\\photoalbumapp\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\photoalbumapp\\photoalbumapp\\views\\photo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:views\\photo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\msc\\felho_photo\\photoalbumapp\\photoalbumapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\msc\\felho_photo\\photoalbumapp\\photoalbumapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\photoalbumapp\\photoalbumapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\msc\\felho_photo\\photoalbumapp\\photoalbumapp\\data\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:data\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\photoalbumapp\\photoalbumapp\\controllers\\photocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:controllers\\photocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\msc\\felho_photo\\photoalbumapp\\photoalbumapp\\logic\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\photoalbumapp\\photoalbumapp\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\photoalbumapp\\photoalbumapp\\views\\photo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:views\\photo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\photoalbumapp\\photoalbumapp\\views\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:views\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\photoalbumapp\\photoalbumapp\\logic\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:logic\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\msc\\felho_photo\\photoalbumapp\\photoalbumapp\\logic\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:logic\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\photoalbumapp\\photoalbumapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Migrations\\20250418184653_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250418184653_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|c:\\bme\\photoalbumapp\\photoalbumapp\\data\\profiledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74243391-10FA-4FAF-A868-3C9ECC7677D3}|PhotoAlbumApp.csproj|solutionrelative:data\\profiledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,117 +54,157 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:14722747:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Views\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Login.cshtml",
-              "ToolTip": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Views\\Login.cshtml",
-              "RelativeToolTip": "Views\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T06:54:06.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:53:13.554Z",
-              "EditorCaption": ""
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Data\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Data\\UserRepository.cs",
-              "ToolTip": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Data\\UserRepository.cs",
-              "RelativeToolTip": "Data\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:51:44.566Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Views\\Photo\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Photo\\Index.cshtml",
+              "ToolTip": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Views\\Photo\\Index.cshtml",
+              "RelativeToolTip": "Views\\Photo\\Index.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwFIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T18:56:54.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Data\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Data\\IUserRepository.cs",
-              "ToolTip": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Data\\IUserRepository.cs",
-              "RelativeToolTip": "Data\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:51:29.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Logic\\AuthService.cs",
-              "RelativeDocumentMoniker": "Logic\\AuthService.cs",
-              "ToolTip": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Logic\\AuthService.cs",
-              "RelativeToolTip": "Logic\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:51:03.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Logic\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Logic\\IAuthService.cs",
-              "ToolTip": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Logic\\IAuthService.cs",
-              "RelativeToolTip": "Logic\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:50:55.248Z",
+              "WhenOpened": "2025-04-18T18:56:12.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Title": "PhotoController.cs",
+              "DocumentMoniker": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Controllers\\PhotoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PhotoController.cs",
+              "ToolTip": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Controllers\\PhotoController.cs",
+              "RelativeToolTip": "Controllers\\PhotoController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAywAUAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T19:14:06.229Z",
+              "WhenOpened": "2025-04-18T18:53:47.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Views\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Views\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:48:54.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T18:48:43.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:45:02.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:47:18.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Logic\\AuthService.cs",
+              "RelativeDocumentMoniker": "Logic\\AuthService.cs",
+              "ToolTip": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Logic\\AuthService.cs",
+              "RelativeToolTip": "Logic\\AuthService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:49:07.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Views\\Photo\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Photo\\Details.cshtml",
+              "ToolTip": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Views\\Photo\\Details.cshtml",
+              "RelativeToolTip": "Views\\Photo\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T18:53:40.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250418184653_init.cs",
+              "DocumentMoniker": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Migrations\\20250418184653_init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250418184653_init.cs",
+              "ToolTip": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Migrations\\20250418184653_init.cs",
+              "RelativeToolTip": "Migrations\\20250418184653_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:46:53.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProfileDbContext.cs",
+              "DocumentMoniker": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Data\\ProfileDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ProfileDbContext.cs",
+              "ToolTip": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\Data\\ProfileDbContext.cs",
+              "RelativeToolTip": "Data\\ProfileDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:46:16.096Z",
               "EditorCaption": ""
             }
           ]

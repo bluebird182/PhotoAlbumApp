@@ -1,22 +1,29 @@
-﻿namespace PhotoAlbumApp.Logic
+﻿using Microsoft.AspNetCore.Identity;
+using PhotoAlbumApp.Data;
+using PhotoAlbumApp.Models;
+
+namespace PhotoAlbumApp.Logic
 {
     public class AuthService : IAuthService
     {
         private readonly IUserRepository _userRepo;
+        private readonly IPasswordHasher<User> _passwordHasher;
 
-        public AuthService(IUserRepository userRepo)
+        public AuthService(IUserRepository userRepo, IPasswordHasher<User> passwordHasher)
         {
             _userRepo = userRepo;
+            _passwordHasher = passwordHasher;
         }
 
         public async Task<User?> ValidateUserAsync(string username, string password)
         {
             var user = await _userRepo.GetByUsernameAsync(username);
-            if (user != null && user.Password == password) // Use hashing in real apps!
-                return user;
+            if (user == null) return null;
 
-            return null;
+            var result = _passwordHasher.VerifyHashedPassword(user, user.PasswordHash, password);
+            return result == PasswordVerificationResult.Success ? user : null;
         }
     }
+
 
 }

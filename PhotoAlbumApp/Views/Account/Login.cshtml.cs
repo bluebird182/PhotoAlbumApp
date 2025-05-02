@@ -38,7 +38,7 @@ namespace PhotoAlbumApp.Views
 
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
 
-            return RedirectToPage("/Index");
+            return RedirectToPage("/photo/index");
         }
     }
 

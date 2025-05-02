@@ -1,4 +1,5 @@
-﻿using PhotoAlbumApp.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using PhotoAlbumApp.Models;
 using System;
 
 namespace PhotoAlbumApp.Data
@@ -12,9 +13,9 @@ namespace PhotoAlbumApp.Data
             _context = context;
         }
 
-        public Task<User?> GetByUsernameAsync(string username)
+        public async Task<User?> GetByUsernameAsync(string username)
         {
-            return _context.Users.FirstOrDefaultAsync(u => u.Username == username);
+            return await _context.Users.FirstOrDefaultAsync(u => u.Username == username);
         }
     }
 

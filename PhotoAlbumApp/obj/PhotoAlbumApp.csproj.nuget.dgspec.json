@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\PhotoAlbumApp.csproj": {}
+    "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\PhotoAlbumApp.csproj": {}
   },
   "projects": {
-    "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\PhotoAlbumApp.csproj": {
+    "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\PhotoAlbumApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\PhotoAlbumApp.csproj",
+        "projectUniqueName": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\PhotoAlbumApp.csproj",
         "projectName": "PhotoAlbumApp",
-        "projectPath": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\PhotoAlbumApp.csproj",
+        "projectPath": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\PhotoAlbumApp.csproj",
         "packagesPath": "C:\\Users\\gomar\\.nuget\\packages\\",
-        "outputPath": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\obj\\",
+        "outputPath": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,13 +58,13 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0, )"
             }

@@ -7,4 +7,5 @@ public class PhotoDbContext : DbContext
         : base(options) { }
 
     public DbSet<Photo> Photos { get; set; }
+    public DbSet<User> Users { get; set; }
 }

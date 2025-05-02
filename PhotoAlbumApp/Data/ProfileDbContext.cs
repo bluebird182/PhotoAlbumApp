@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using PhotoAlbumApp.Models;
 
 public class ProfileDbContext : DbContext

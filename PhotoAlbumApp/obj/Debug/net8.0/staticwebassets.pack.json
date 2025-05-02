@@ -1,259 +1,259 @@
 {
   "Files": [
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\css\\site.css",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\favicon.ico",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\js\\site.js",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\uploads\\20dab5e3-0065-4c69-bebd-42b4ce2048c7.jfif",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\uploads\\20dab5e3-0065-4c69-bebd-42b4ce2048c7.jfif",
       "PackagePath": "staticwebassets\\uploads\\20dab5e3-0065-4c69-bebd-42b4ce2048c7.jfif"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\uploads\\2d88c83c-5c5d-4c44-b99a-67ea7a040017.jfif",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\uploads\\2d88c83c-5c5d-4c44-b99a-67ea7a040017.jfif",
       "PackagePath": "staticwebassets\\uploads\\2d88c83c-5c5d-4c44-b99a-67ea7a040017.jfif"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\uploads\\33e67d3a-f507-42e1-aafe-a24b9650afec.webp",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\uploads\\33e67d3a-f507-42e1-aafe-a24b9650afec.webp",
       "PackagePath": "staticwebassets\\uploads\\33e67d3a-f507-42e1-aafe-a24b9650afec.webp"
     },
     {
-      "Id": "C:\\BME\\MSc\\felho_photo\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\uploads\\5dcf3776-100a-44b8-bd0c-4659fa62ae4b.png",
+      "Id": "C:\\BME\\PhotoAlbumApp\\PhotoAlbumApp\\wwwroot\\uploads\\5dcf3776-100a-44b8-bd0c-4659fa62ae4b.png",
       "PackagePath": "staticwebassets\\uploads\\5dcf3776-100a-44b8-bd0c-4659fa62ae4b.png"
     },
     {

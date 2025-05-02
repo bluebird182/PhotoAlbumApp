@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("97fdb293-9b44-4f08-9fec-b67f88d6b71f")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhotoAlbumApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a42b1d8cf4b88cd8569e2686c3e993d957f03fce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c6a611db4e2ca6a38f08c4ab1e5c72004a43e0e")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhotoAlbumApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhotoAlbumApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

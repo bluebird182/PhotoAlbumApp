@@ -1,4 +1,6 @@
-﻿namespace PhotoAlbumApp.Data
+﻿using PhotoAlbumApp.Models;
+
+namespace PhotoAlbumApp.Data
 {
     public interface IUserRepository
     {
