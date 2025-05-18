@@ -3,7 +3,7 @@
 >Készítették: Erőss Helga Enikő (ZCA6AF), Gódor Márton (UDRF04)
 
 ## PhotoAlbumApp
-A PhotoAlbumApp egy ASP.NET Core MVC alapú webalkalmazás, amely lehetővé teszi a felhasználók számára a fotók feltöltését, megtekintését, valamint törlését. A fényképek modal ablakban jelennek meg, és lehetőség van közöttük lépkedni. Az alkalmazás SQLite adatbázist használ, Dockerrel konténerizálva, és OpenShift-en is futtatható.
+A PhotoAlbumApp egy ASP.NET Core MVC alapú webalkalmazás, amely lehetővé teszi a felhasználók számára a fotók feltöltését, megtekintését, valamint törlését. A felhasználónak lehetősége van regisztálni, bejelentkezni, kijelentkezni. A képet/képeket abban az esetben látja, ha be tud jelentkezni. A fényképek modal ablakban jelennek meg, és lehetőség van közöttük lépkedni. Az alkalmazás SQLite adatbázist használ, Dockerrel konténerizálva, és OpenShift-en is futtatható.
 
 ## Felhasznált technológiák
 - **.NET 8:** A projekt ASP.NET Core MVC architektúrára épül, amely elválasztja az adatkezelést, megjelenítést és vezérlést.
@@ -19,12 +19,10 @@ A PhotoAlbumApp egy ASP.NET Core MVC alapú webalkalmazás, amely lehetővé tes
     - UploadDate: a fotó feltöltésének ideje.
     - FilePath: a fotó elérési útvonala, ahonnan képes betölteni.
     - UderId: a fotót feltöltő felhasználó azonisítója.
-### Profile:
+### User:
     - Id: a felhasználó azonosítója.
     - Username: a felhasználó neve.
-    - Email: a felhasználó e-mail címe.
-    - Photos: a felhasználó általt feltöltött képek listája.
-    - Password: a felhasználó bejelntkezéséhez szükséges jelszó.
+    - PasswordHash: a felhasználó bejelntkezéséhez szükséges jelszó.
 
 ## Funkciók
 ### Fotók:
@@ -34,6 +32,12 @@ A PhotoAlbumApp egy ASP.NET Core MVC alapú webalkalmazás, amely lehetővé tes
 - Modal ablakos képnézegetés
 - Nyilakkal lépkedés a képek között
 - Fénykép törlése szemetes ikon segítségével, megerősítéssel
+
+### Felhasználó:
+- Regisztráció
+- Bejelentkezés
+- Kijelentkezés
+
 
 ## Háromrétegű Architektúra
 Az alkalmazásunkat háromrétegű architektúra felhasználásával fejlesztettük, amely egy jól strukturált, áttekinthető és könnyen karbantartható megoldást eredményezett. Az első réteg a prezentációs réteg, amely a felhasználói felületet biztosítja, itt helyezkednek el a Razor-oldalak és a felhasználói interakciókat kezelő logika. A középső réteg az üzleti logikai réteg, amely az alkalmazás központi funkcióit, adatfeldolgozását, validációját, valamint a validációs szabályok betartását végzi. Ez a réteg felelős például a képek feltöltésével, rendezésével és kezelésével kapcsolatos feladatokért, így biztosítva, hogy a felhasználói műveletek megfelelően hajtódjanak végre. A harmadik réteg pedig az adat-hozzáférési réteg (DAL), amely az adatok perzisztens tárolásáért és adatbázis-műveletekért felelős. Itt definiáltuk a különböző adatmodelleket, például a felhasználók és képek tárolásához szükséges struktúrákat, illetve az adatbázis műveletek kezeléséhez használt Entity Framework Core kontextust. Az architektúra rétegeinek elválasztása révén az alkalmazás skálázhatósága javul, valamint könnyebbé vált az egyes rétegek önálló tesztelése és fejlesztése. 
