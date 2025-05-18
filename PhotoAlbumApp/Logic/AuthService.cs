@@ -23,6 +23,19 @@ namespace PhotoAlbumApp.Logic
             var result = _passwordHasher.VerifyHashedPassword(user, user.PasswordHash, password);
             return result == PasswordVerificationResult.Success ? user : null;
         }
+
+        public async Task<bool> RegisterUserAsync(string username, string password)
+        {
+            var existingUser = await _userRepo.GetByUsernameAsync(username);
+            if (existingUser != null)
+                return false;
+
+            var user = new User { Username = username };
+            user.PasswordHash = _passwordHasher.HashPassword(user, password);
+
+            return await _userRepo.CreateAsync(user);
+        }
+
     }
 
 

@@ -39,7 +39,7 @@ public class AccountController : Controller
 
         await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
 
-        return RedirectToAction("photo/index"); // redirect to wherever
+        return RedirectToAction("Index", "Photo"); // redirect to wherever
     }
 
     [HttpPost]
@@ -47,8 +47,34 @@ public class AccountController : Controller
     public async Task<IActionResult> Logout()
     {
         await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-        return RedirectToAction("Index", "Home"); // or another neutral page
+        return RedirectToAction("Login", "Account"); // or another neutral page
 
+    }
+
+    [HttpGet]
+    public IActionResult Register() => View();
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Register(string username, string password)
+    {
+        if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
+        {
+            ModelState.AddModelError("", "Felhasználónév és jelszó megadása kötelező.");
+            Console.WriteLine("Felhasználónév és jelszó megadása kötelező.");
+            return View();
+        }
+
+        var success = await _authService.RegisterUserAsync(username, password);
+        if (!success)
+        {
+            ModelState.AddModelError("", "A felhasználónév már létezik.");
+            Console.WriteLine("A felhasználónév már létezik.");
+            return View();
+        }
+
+        Console.WriteLine("Siker!");
+        return RedirectToAction("Login", "Account");
     }
 
 }

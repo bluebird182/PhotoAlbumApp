@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Regisztráció";
+}
+
+<div class="container mt-5" style="max-width: 400px;">
+    <h2 class="text-center mb-4">Regisztráció</h2>
+
+    <form method="post">
+        @Html.AntiForgeryToken()
+        <div class="mb-3">
+            <label for="username" class="form-label">Felhasználónév</label>
+            <input type="text" class="form-control" id="username" name="username" required />
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Jelszó</label>
+            <input type="password" class="form-control" id="password" name="password" required />
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Regisztráció</button>
+    </form>
+
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger mt-3 text-center">
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <div>@error.ErrorMessage</div>
+            }
+        </div>
+    }
+
+    <div class="mt-3 text-center">
+        <a href="/Account/Login">Vissza a bejelentkezéshez</a>
+    </div>
+</div>

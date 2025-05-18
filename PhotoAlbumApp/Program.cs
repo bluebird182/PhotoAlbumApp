@@ -8,6 +8,7 @@ using System;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorPages();
+builder.Services.AddControllersWithViews();
 builder.Services
     .AddDbContext<PhotoDbContext>(options =>
     options.UseSqlite("Data Source=photos.db"));
@@ -15,7 +16,6 @@ builder.Services
 //builder.Services.AddDefaultIdentity<IdentityUser>()
 //    .AddEntityFrameworkStores<PhotoDbContext>();
 
-builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
@@ -27,12 +27,16 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     {
         options.LoginPath = "/Account/Login";
         options.LogoutPath = "/Account/Logout";
+        options.Cookie.HttpOnly = true;
+        options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+        options.Cookie.SameSite = SameSiteMode.Strict;
     });
 
 builder.Services.AddAuthorization();
 
 
 var app = builder.Build();
+app.UseHttpsRedirection();
 
 using (var scope = app.Services.CreateScope())
 {
@@ -52,7 +56,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapRazorPages();
@@ -71,14 +75,12 @@ using (var scope = app.Services.CreateScope())
     {
         var user = new User
         {
-            Username = "test",
-            Password = "1234"
+            Username = "test"
         };
         user.PasswordHash = hasher.HashPassword(user, "1234");
         db.Users.Add(user);
         db.SaveChanges();
     }
 }
-
 
 app.Run();
