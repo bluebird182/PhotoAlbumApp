@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;  
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using PhotoAlbumApp.Data;
 using PhotoAlbumApp.Logic;
 using PhotoAlbumApp.Models;
@@ -11,7 +12,9 @@ builder.Services.AddRazorPages();
 builder.Services.AddControllersWithViews();
 builder.Services
     .AddDbContext<PhotoDbContext>(options =>
-    options.UseSqlite("Data Source=photos.db"));
+    //options.UseSqlite("Data Source=photos.db"));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 //builder.Services.AddDefaultIdentity<IdentityUser>()
 //    .AddEntityFrameworkStores<PhotoDbContext>();

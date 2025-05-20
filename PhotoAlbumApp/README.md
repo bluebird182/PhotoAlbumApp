@@ -1,4 +1,4 @@
-# Felhőalapú elosztott rendszerek laboratórium - 4.házi
+# Felhőalapú elosztott rendszerek laboratórium - 4-5.házi
 
 >Készítették: Erőss Helga Enikő (ZCA6AF), Gódor Márton (UDRF04)
 
