@@ -15,12 +15,12 @@ spec:
     spec:
       containers:
         - name: photoapp
-          image: your-registry/your-dotnet-image:latest
+          image: image-registry.openshift-image-registry.svc:5000/bluebird182-dev/photo-album-app:latest
           ports:
             - containerPort: 8080
           envFrom:
             - secretRef:
                 name: postgres-secret
           env:
-            - name: POSTGRESQL_SERVICE_HOST
-              value: postgresql
+            - name: ConnectionStrings__DefaultConnection
+              value: "Host=postgresql;Port=5432;Database=photoalbum;Username=admin;Password=admin1234"
