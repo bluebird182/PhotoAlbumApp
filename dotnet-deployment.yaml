@@ -1,0 +1,26 @@
+# dotnet-deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: photoapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: photoapp
+  template:
+    metadata:
+      labels:
+        app: photoapp
+    spec:
+      containers:
+        - name: photoapp
+          image: your-registry/your-dotnet-image:latest
+          ports:
+            - containerPort: 8080
+          envFrom:
+            - secretRef:
+                name: postgres-secret
+          env:
+            - name: POSTGRESQL_SERVICE_HOST
+              value: postgresql
