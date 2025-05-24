@@ -5,8 +5,7 @@ metadata:
   name: postgresql
 spec:
   selector:
-    app: postgres
+    deploymentconfig: postgresql
   ports:
-    - protocol: TCP
-      port: 5432
+    - port: 5432
       targetPort: 5432

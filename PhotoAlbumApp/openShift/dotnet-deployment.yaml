@@ -17,10 +17,11 @@ spec:
         - name: photoapp
           image: image-registry.openshift-image-registry.svc:5000/bluebird182-dev/photo-album-app:latest
           ports:
-            - containerPort: 8080
-          envFrom:
-            - secretRef:
-                name: postgres-secret
+            - containerPort: 80
           env:
             - name: ConnectionStrings__DefaultConnection
-              value: "Host=postgresql;Port=5432;Database=photoalbum;Username=admin;Password=admin1234"
+              valueFrom:
+                secretKeyRef:
+                  name: postgresql
+                  key: connection-string
+              #value: "Host=postgresql.bluebird182-dev.svc.cluster.local;Port=5432;Database=photoalbum;Username=admin;Password=admin1234"

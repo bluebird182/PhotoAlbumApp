@@ -69,5 +69,29 @@ using (var scope = app.Services.CreateScope())
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     db.Database.Migrate();
 }
+```
 
+## 3. OpenShift
 
+A projektben a **dotnet-deployment.yaml** és a **postgres-deployment.yaml** fájlok határozzák meg, hogy hogyan induljon el a .NET alkalmazás és a PostgreSQL adatbázis konténerként az OpenShift klaszteren. A **dotnet-service.yaml** és **postgres-service.yaml** fájlok biztosítják, hogy ezek az alkalmazások belső hálózati néven (DNS-sel) elérjék egymást — például a .NET alkalmazás a postgresql nevű service-en keresztül csatlakozik az adatbázishoz. A **postgres-pvc.yaml** pedig gondoskodik arról, hogy a PostgreSQL adatállománya tartósan megmaradjon akkor is, ha a pod újraindul. Ezek a fájlok együtt biztosítják az alkalmazás konténeres, hálózatban működő és adatbiztonságos működését OpenShift-en.
+
+### Hozzáadott .yaml fájlok:
+- dotnet-deployment.yaml
+- dotnet-service.yaml
+- postgres-deployment.yaml
+- postgres-service.yaml
+- postgres-pvc.yaml
+
+### Eredmények:
+
+![Postgresql](post_1.png)
+
+Látható a PostgreSQL adatbázis futása. A konténer elindult és fogad az 5432-es porton. A set_passwords.sh script futása után megtörténik a jelszó beállítás és a konténer teljesen elindulása.
+
+![Postgresql](post_3.png)
+
+Az eseménynapló mutatja az image sikeres lehúzását az OpenShift belső registryből, a konténer létrehozását és sikeres elindulást. Mindezek igazolják az adatbázis szerver működését.
+
+![Postgresql](post_2.png)
+
+A kép is megerősíti, hogy a Service megfelelően továbbítja a forgalmat a PostgreSQL podhoz az 5432-es porton. Így az adatbázis más podokból is elérhető.
